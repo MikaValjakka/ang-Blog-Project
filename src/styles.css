@@ -1,6 +1,7 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-
+/*@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');*/
+@import '~bootstrap/dist/css/bootstrap.min.css';
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
 :root {
     --primary-color: #026467;
     --secondry-color: #e5F5EA;
@@ -9,7 +10,20 @@
 }
 
 body{
-    font-family: 'Roboto', sans-serif;
+    /* roboto font -> font-family: 'Roboto', sans-serif; */
+    font-family: 'Poppins', sans-serif;
     font-size: 12px;
     color: var(--body-text-color);
+}
+
+.site-logo {
+    padding: 5px, 20px;
+    border-radius: 10px 70px;
+    background-color: var(--secondry-color);
+    color:var(--primary-color);
+    font-size: 1.5em;
+}
+
+.nav-link {
+    color: var(--primary-color);
 }
